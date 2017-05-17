@@ -9,7 +9,7 @@ class FormBuilderController extends Controller
 {
     public function add($a, $b){
     	$result = $a + $b;
-	    return view('fbForm::add', compact('result'));
+	    return view('formBuilderViews::add', compact('result'));
     }
 
     public function subtract($a, $b){

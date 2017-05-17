@@ -1,4 +1,5 @@
 TODO
+====
 
 Generate Multiple Forms
 
@@ -28,3 +29,12 @@ Add this line
 Asr\FormBuilder\FormBuilderServiceProvider::class,
 
 in config/app.php file under providers array.
+
+Run Migrations
+==============
+
+php artisan vendor:publish --provider="Asr\FormBuilder\FormBuilderServiceProvider" --tag="migrations"
+
+After Publishing complete, run
+
+php artisan migrate
