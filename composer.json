@@ -1,0 +1,20 @@
+{
+    "name": "a-s-r/laravel-form-builder",
+    "description": "This is a laravel package !!",
+    "keywords": ["laravel", "forms", "form-builder", "generator"],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ajay Singh Rawat",
+            "email": "asrawat.contact@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Asr\\FormBuilder\\":"src/"
+        }
+    }
+}
