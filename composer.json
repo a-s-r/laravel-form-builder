@@ -2,7 +2,7 @@
     "name": "a-s-r/laravel-form-builder",
     "description": "This is a laravel package !!",
     "keywords": ["laravel", "forms", "form-builder", "generator"],
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {

@@ -11,3 +11,20 @@ Enter Form
 Right now working on following things....
 
 Will update on some intervals or final release :-)
+
+Installation Guide
+==================
+
+Run on CMD
+
+composer require a-s-r/laravel-form-builder:dev-master
+OR
+php composer.phar require a-s-r/laravel-form-builder:dev-master
+
+Then
+
+Add this line 
+
+Asr\FormBuilder\FormBuilderServiceProvider::class,
+
+in config/app.php file under providers array.
